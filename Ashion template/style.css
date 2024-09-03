@@ -63,7 +63,7 @@ nav{
 /*Main sections starts here*/
 
 .container{
-    border: 2px solid black;
+   
     display: flex;
     justify-content: space-between;
     height: 100vh;
@@ -74,8 +74,10 @@ nav{
     width: 50%;
     background-repeat: no-repeat;
     margin: 10px 20px 0 0;
+    
 
 }
+
 .box-2{
     display: flex;
     width: 50%;
