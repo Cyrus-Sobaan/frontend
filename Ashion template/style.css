@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
-    /* -webkit-font-smoothing: antialiased; */
+    
 }
 
 
@@ -63,58 +63,52 @@ nav{
 /*Main sections starts here*/
 
 .container{
-   
+    border: 2px solid black;
+    height: 660px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    height: 100vh;
-
+    padding: 10px 0;
+    
 }
+
 .box-1{
-    background-image: url(assets/category-1.jpg);
-    width: 50%;
-    background-repeat: no-repeat;
-    margin: 10px 20px 0 0;
-    
+   border: 1px solid black;
+   width: 49%;
+   height: 100%;
 
 }
-
 .box-2{
-    display: flex;
-    width: 50%;
-    margin: 10px  0px;
-    
+    border: 1px solid rgb(241, 29, 29);
+    width: 49%;
+    height: 100%;
     
 }
-
+.box-right{
+    border: 1px solid green;
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
 .img1{
-    background-image: url(assets/category-2.jpg);
-    width: 500px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 35vh;
+    border: 1px solid black;
+    width: 49%;
+    height: 49%;
    
 }
 .img2{
-    background-image: url(assets/category-3.jpg);
-    width: 500px;
-    background-repeat: no-repeat;
-    height: 35vh;
-    background-size: cover;
+    border: 1px solid black;
+    width: 49%;
+    height: 49%;
 }
 .img3{
-    background-image: url(assets/category-4.jpg);
-    width: 500px;
-    background-repeat: no-repeat;
-    height: 35vh;
-    background-size: cover;
+    border: 1px solid black;
+    width: 49%;
+    height: 49%;
 }
 .img4{
-    background-image: url(assets/category-5.jpg);
-    width: 500px;
-    background-repeat: no-repeat;
-    height: 35vh;
-    background-size: cover;
+    border: 1px solid black;
+    width: 49%;
+    height: 49%;
 }
-
-
-
