@@ -9,6 +9,7 @@
 .container{
    width: 100%;
     display: flex;
+
 }
 
 .sidebar{
@@ -94,8 +95,22 @@ hr{
 }
 
 .images{
-   margin: 30px 0;
+    margin: 30px 0;
+    display: flex;
+    
+    gap: 15px;
+
 }
-.images img{
-  padding: 0 6px;
+
+
+.img-1{
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+    
 }
+.img-1:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+

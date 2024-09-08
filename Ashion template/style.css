@@ -8,18 +8,28 @@
 header {
   background-color: #fff;
   box-shadow: 10px 1px 10px 4px rgb(236, 236, 236);
-  padding: 25px 100px;
+  
+  width: 100%;
 }
 
 nav {
   display: flex;
+  
   justify-content: space-between;
   align-items: center;
+  width: 100%;
+  padding: 25px 100px;
+  
+ 
 }
+
 .list a {
   text-decoration: none;
   color: black;
   padding: 0 15px;
+  font-size: 1rem;
+  
+  
 }
 .list a:hover {
   border-bottom: 2px solid red;
@@ -51,6 +61,24 @@ nav {
   border-radius: 500px;
   padding: 1px 5px;
 }
+
+/* @media only screen and (max-width:1229px){
+ header{
+  display: block;
+  font-size: 22px;
+  color: #222;
+  height: 35px;
+  width: 35px;
+  line-height: 35px;
+  text-align: center;
+  border: 1px solid #323232;
+  border-radius: 2px;
+  cursor: pointer;
+  position: absolute;
+  right: 15px;
+  top: 24px;
+ }
+} */
 
 /*Main sections starts here*/
 
