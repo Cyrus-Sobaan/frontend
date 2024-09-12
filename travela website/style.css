@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    border: 1px solid black;
+   
+}
+nav{
+    border: 1px solid black;
+    padding: 30px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+   
+}
+
+.logo{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 10px;
+}
+.items a{
+    text-decoration: none;
+    color: black;
+    margin: -3px;
+    padding: 44px 15px;
+}
+.items a:hover{
+    background-color: #13357B;;
+    cursor: pointer;
+    color: white;
+    transition: .5s;
+}
+.items :nth-child(1){
+    background-color: #13357B;
+    color: white;
+}
+.items button{
+    padding: 14px 25px;
+    border-radius: 20px;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
